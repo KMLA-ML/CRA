@@ -1,0 +1,14 @@
+# 제일 효과가 좋은 모델을 고른다
+
+input_num = 10 # 임의의 값
+X = []
+
+# 모델이 사용할 값을 입력한다
+for i in range(input_num):
+    a = input(i, "번째 변수")
+    X.append(a)
+
+    
+prediction = my_model.predict(X)
+
+print("예측값:", prediction)
